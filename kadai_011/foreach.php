@@ -7,10 +7,10 @@
 <body>
   <p>
     <?php
-     $food_date = ['名前' => '玉ねぎ', '値段' => 200, '産地' => '北海道'];
+     $product_date = ['名前' => '玉ねぎ', '値段' => 200, '産地' => '北海道'];
 
        //  配列$food_dateのインデックスと値を1つずつ順番に出力する
-        foreach ($food_date as $index => $value) {
+        foreach ($product_date as $index => $value) {
             echo "{$index}：{$value}<br>";
         }
     ?>  
